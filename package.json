@@ -5,6 +5,7 @@
   "main": "index.js",
   "homepage": "https://michaelvisque.github.io/markdown_blog",
   "scripts": {
+    "start": "node articles.js",
     "devStart": "nodemon server.js"
   },
   "keywords": [],
