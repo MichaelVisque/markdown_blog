@@ -5,8 +5,9 @@
   "main": "index.js",
   "homepage": "https://michaelvisque.github.io/markdown_blog",
   "scripts": {
-    "start": "node articles.js",
-    "devStart": "nodemon server.js"
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "marked": "^1.2.3",
     "method-override": "^3.0.0",
     "mongoose": "^5.11.13",
+    "serve": "^11.3.2",
     "slugify": "^1.4.6"
   },
   "devDependencies": {
