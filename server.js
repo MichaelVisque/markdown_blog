@@ -13,7 +13,7 @@ const app = express()
 }) */
 
 app.set('view engine', 'ejs')
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ limit: '10mb', extended: false }))
 app.use(methodOverride('_method'))
 
 app.get('/', async (req, res) => {
