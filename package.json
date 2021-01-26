@@ -17,8 +17,8 @@
     "jsdom": "^16.4.0",
     "marked": "^1.2.7",
     "method-override": "^3.0.0",
-    "mongoose": "5.11.13",
-    "mpath": "0.8.3",
+    "mongoose": "^5.11.13",
+    "mpath": "^0.8.3",
     "serve": "^11.3.2",
     "slugify": "^1.4.6"
   },
